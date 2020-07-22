@@ -10,4 +10,8 @@ while True:
 	# attribute.append(price)
 	products.append(attribute)
 
-print(products[0][1])
+print(products)
+
+for p in products:
+	print(p[0], '的价格为: ', p[1])
+
